@@ -2,8 +2,6 @@
 
 My Ubuntu desktop and terminal setup for a ThinkPad P14s Gen 5 (AMD), running Ubuntu 26.04 LTS with GNOME 50. The theme is red and black: minimal, but with live system stats and a techy terminal.
 
-![Desktop screenshot](screenshot.png)
-
 ## What's in here
 
 | File | What it does |
