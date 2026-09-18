@@ -23,13 +23,13 @@ My Ubuntu desktop and terminal setup for a ThinkPad P14s Gen 5 (AMD), running Ub
 - Terminal: Ptyxis with the Linux palette at 90% opacity
 - Font: JetBrainsMono Nerd Font Mono
 - Prompt: Starship
-- Extras: fastfetch, btop
+- Extras: fastfetch, btop, eza (ls with icons), bat (cat with highlighting), zoxide (smart cd), fzf (fuzzy search)
 
 ## Restoring on a new machine
 
 1. Install the tools:
 ```bash
-   sudo apt install starship fastfetch btop papirus-icon-theme gnome-tweaks gnome-shell-extension-manager
+sudo apt install starship fastfetch btop eza bat zoxide fzf papirus-icon-theme gnome-tweaks gnome-shell-extension-manager
 ```
 2. Install JetBrainsMono Nerd Font from [nerdfonts.com](https://www.nerdfonts.com/) into `~/.local/share/fonts`, then run `fc-cache -f`.
 3. Copy the Starship config:
