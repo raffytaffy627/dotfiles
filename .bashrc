@@ -120,3 +120,18 @@ alias arduino='~/Applications/arduino-ide_2.3.10_Linux_64bit.AppImage --no-sandb
 alias update='sudo apt update && sudo apt upgrade -y && sudo snap refresh'
 eval "$(starship init bash)"
 fastfetch
+# eza: modern ls with icons
+alias ls='eza --icons --group-directories-first'
+alias ll='eza -l --icons --git --group-directories-first'
+alias la='eza -la --icons --group-directories-first'
+alias tree='eza --tree --icons'
+
+# bat: cat with syntax highlighting (Ubuntu names it batcat)
+export BAT_THEME="ansi"
+alias cat='batcat --paging=never'
+
+# zoxide: smart cd (use "z foldername")
+eval "$(zoxide init bash)"
+
+# fzf: Ctrl+R fuzzy history search, Ctrl+T file search
+eval "$(fzf --bash)"
