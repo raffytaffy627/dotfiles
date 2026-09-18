@@ -1,0 +1,40 @@
+# Blank line between commands so output doesn't feel cramped
+add_newline = true
+
+# Two-line layout: info on top, typing line below
+format = """
+[┌](bold red)$username$directory$git_branch$git_status$python$cmd_duration
+[└](bold red)$character"""
+
+[username]
+show_always = true
+format = "[$user](bold red) [in](dimmed white) "
+
+[directory]
+style = "bold white"
+format = "[$path]($style) "
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = "\ue0a0 "
+style = "bold red"
+format = "[on](dimmed white) [$symbol$branch]($style) "
+
+[git_status]
+style = "red"
+format = '([\[$all_status$ahead_behind\]]($style) )'
+
+[python]
+symbol = "\ue73c "
+style = "red"
+format = "[via](dimmed white) [$symbol$version]($style) "
+
+[cmd_duration]
+min_time = 2000
+format = "[took $duration](dimmed white)"
+
+[character]
+success_symbol = "[❯](bold red)"
+error_symbol = "[✗](bold red)"
+

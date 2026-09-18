@@ -1,0 +1,83 @@
+[blur-my-shell]
+rounded-blur-found=false
+settings-version=2
+
+[blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[blur-my-shell/panel]
+brightness=0.59999999999999998
+corner-radius=0
+sigma=30
+
+[blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[dash-to-dock]
+dash-max-icon-size=40
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+
+[ding]
+check-x11wayland=true
+show-home=false
+
+[just-perfection]
+accent-color-icon=true
+accessibility-menu=true
+animation=4
+dash-icon-size=0
+notification-banner-position=5
+panel=true
+panel-in-overview=true
+panel-notification-icon=true
+panel-size=30
+power-icon=true
+ripple-box=true
+search=true
+show-apps-button=true
+startup-status=0
+support-notifier-type=0
+theme=true
+window-demands-attention-focus=false
+window-picker-icon=true
+workspace=true
+workspaces-in-app-grid=true
+
+[rounded-window-corners-reborn]
+settings-version=uint32 9
+
+[tiling-assistant]
+focus-hint-color='rgb(203,67,20)'
+last-version-installed=54
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+tiling-popup-all-workspace=true
+
+[vitals]
+battery-colors=@as []
+fan-colors=@as []
+gpu-colors=@as []
+hot-sensors=['_memory_usage_', '_temperature_k10temp_tctl_', '_processor_usage_', '__network-rx_max__', '_network_wifi_link_quality_']
+include-public-ip=false
+memory-colors=@as []
+network-public-ip-show-flag=false
+network-speed-unit=2
+processor-colors=@as []
+show-battery=false
+show-fan=false
+show-memory=true
+show-storage=false
+show-system=false
+show-voltage=false
+system-colors=@as []
+temperature-colors=@as []
