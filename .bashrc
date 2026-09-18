@@ -119,3 +119,4 @@ alias arduino='~/Applications/arduino-ide_2.3.10_Linux_64bit.AppImage --no-sandb
 alias arduino='~/Applications/arduino-ide_2.3.10_Linux_64bit.AppImage --no-sandbox'
 alias update='sudo apt update && sudo apt upgrade -y && sudo snap refresh'
 eval "$(starship init bash)"
+fastfetch
