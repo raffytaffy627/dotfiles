@@ -53,6 +53,10 @@ sudo apt install starship fastfetch btop eza bat zoxide fzf papirus-icon-theme g
 - VS Code installed as a Snap won't see fonts in `~/.local/share/fonts`. Copy the font to `/usr/local/share/fonts` and run `sudo fc-cache -f`.
 - Set VS Code's terminal font to `'JetBrainsMono Nerd Font Mono', monospace` so the prompt icons render.
 
+## Changelog
+
+- **2026-09-27** - added the [Rafin Hasan License](LICENSE)
+
 ## License
 
 [The Rafin Hasan License](LICENSE). Use it for anything, just keep the credit :3
